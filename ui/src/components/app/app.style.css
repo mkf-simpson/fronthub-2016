@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px 15px 50px 15px;
+  height: 80vh;
+  width: 90vw;
+  background-color: #4B87CB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  flex: 1 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+center {
+  flex: 2 0px;
+}
+
+list, yet-another-component {
+  flex: 1 0px;
+  margin: 0 15px 0 15px;
+}

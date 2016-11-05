@@ -1,0 +1,23 @@
+:host {
+  width: 100%;
+  height: 100%;
+  background-color: #FDB50A;
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  justify-content: center;
+}
+
+item {
+  width: 90%;
+  height: 50px;
+}
+
+.text {
+  padding: 15px;
+  text-align: center;
+}
